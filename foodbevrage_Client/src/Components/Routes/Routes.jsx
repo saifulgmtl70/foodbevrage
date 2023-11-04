@@ -32,13 +32,13 @@ const router = createBrowserRouter([
         {
             path: '/brands/:brand',
             element: <PrivateRoutes> <SeeBrand></SeeBrand> </PrivateRoutes>,
-            loader: () => fetch('https://food-bevrage-server.vercel.app/products')
+            loader: () => fetch('https://foode-server-aeermtw0h-azadgmtls-projects.vercel.app/products')
         },
 
         {
             path: '/update/:id',
             element: <Update></Update>,
-            loader: ({params}) => fetch(`https://food-bevrage-server.vercel.app/products/${params.id}`)
+            loader: ({params}) => fetch(`https://foode-server-aeermtw0h-azadgmtls-projects.vercel.app/products/${params.id}`)
         },
 
         {
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
         {
             path: '/cart',
             element: <PrivateRotes> <Cart></Cart> </PrivateRotes>,
-            loader: () => fetch('https://food-bevrage-server.vercel.app/cart')
+            loader: () => fetch('https://foode-server-aeermtw0h-azadgmtls-projects.vercel.app//cart')
         },
         
         {
