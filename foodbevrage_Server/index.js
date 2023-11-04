@@ -11,7 +11,7 @@ const port= process.env.PORT || 5000
 // Middle Ware 
 app.use(cors(
   {
-    origin:["https://food-bevrage-frontend.vercel.app/"],
+    origin:["https://foodbevrage-clients.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true
   }
