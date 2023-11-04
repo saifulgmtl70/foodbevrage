@@ -16,7 +16,7 @@ const SeeDetails = () => {
 
     useEffect(() => {
 
-        fetch(`http://localhost:5000/products/${id}`)
+        fetch(`https://food-bevrage-server.vercel.app/products/${id}`)
           .then((response) => response.json())
           .then((data) => setProduct(data))
           .catch((error) => console.error("Error fetching product details: ", error));
@@ -35,7 +35,7 @@ const SeeDetails = () => {
         };
       
         // Check if the product already exists in the cart
-        fetch('http://localhost:5000/cart')
+        fetch('https://food-bevrage-server.vercel.app/cart')
           .then((response) => response.json())
           .then((data) => {
             const existingProduct = data.find((item) => item.product_id === cartItem.product_id);
@@ -49,7 +49,7 @@ const SeeDetails = () => {
               });
             } else {
               // Product doesn't exist in the cart, so add it
-              fetch('http://localhost:5000/cart', {
+              fetch('https://food-bevrage-server.vercel.app/cart', {
                 method: 'POST',
                 headers: {
                   'content-type': 'application/json',
