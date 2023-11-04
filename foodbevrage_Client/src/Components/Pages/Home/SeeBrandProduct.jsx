@@ -10,7 +10,7 @@ const SeeBrandProduct = ({brandProduct}) => {
     return (
        
 
-        <div className="card w-96 glass shadow-2xl rounded-sm">
+        <div className="card w-auto lg:w-96 glass shadow-2xl rounded-sm">
         <img src={photo} className="w-auto lg:w-11/12 h-auto lg:h-56 mx-auto p-3"/>
         <div className="card-body text-center">
             <h2 className=" -mt-4 mb-2 text-2xl text-cyan-900 text-center"> {name} </h2>
