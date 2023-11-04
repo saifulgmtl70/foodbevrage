@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "brand_name": "Pepsi",
+      "brand_image": "https://i.ibb.co/Nsxny53/PepsiCo.jpg"
+     
+    },
+
+    {
+      "id": 2,
+      "brand_name": "Coca-Cola",
+      "brand_image": "https://i.ibb.co/GtsCBrj/coca-cola.jpg"
+    },
+
+    {
+      "id": 3,
+      "brand_name": "Nestle",
+      "brand_image": "https://i.ibb.co/cTJ8qSJ/nestle7563-logowik-com.webp"
+    },
+
+    {
+      "id": 4,
+      "brand_name": "Danone",
+      "brand_image": "https://i.ibb.co/b7pp8br/bdnews24-english-2023-07-97d6ecd3-6898-4da1-9f27-87b93b191d71-danone-logo.jpg"
+    },
+
+    {
+      "id": 5,
+      "brand_name": "Heineken",
+      "brand_image": "https://i.ibb.co/12VPTFd/i-T8h-No31-400x400.jpg",
+
+     "slider_1": "https://i.ibb.co/60BMLt3/dff40792f41b477bf05851e4a7f00927.jpg"
+    },
+
+    {
+      "id": 6,
+      "brand_name": "Unilever",
+      "brand_image": "https://i.ibb.co/hcD69yk/unilever-history-evolution-present-and-the-future-1-320.jpg"
+    }
+  ]
+

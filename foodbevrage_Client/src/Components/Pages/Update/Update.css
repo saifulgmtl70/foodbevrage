@@ -1,0 +1,24 @@
+.bg_brandDetails{
+    background: url(https://i.ibb.co/yQRYxNF/Food-Beverage-CLuster.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.bg_brandDetails::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(35, 46, 90);
+    z-index: -1;
+    opacity: .8;
+}
