@@ -33,7 +33,7 @@ const Update = () => {
 
 
 
-        fetch(`https://food-bevrage-server.vercel.app/products/${_id}`,{
+        fetch(`https://foode-server-aeermtw0h-azadgmtls-projects.vercel.app//products/${_id}`,{
             method: 'PUT',
             headers:{
                 'content-type': 'application/json'
