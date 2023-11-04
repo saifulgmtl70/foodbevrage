@@ -21,7 +21,7 @@ const AddProduct = () => {
 
         
         // Send Data to the server
-        fetch('http://localhost:5000/products',{
+        fetch('https://food-bevrage-server.vercel.app//products',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'
