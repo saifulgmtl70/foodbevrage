@@ -21,7 +21,7 @@ const AddProduct = () => {
 
         
         // Send Data to the server
-        fetch('https://food-bevrage-server.vercel.app/products',{
+        fetch('https://foode-server-aeermtw0h-azadgmtls-projects.vercel.app/products',{
             method: 'POST',
             headers:{
                 'content-type': 'application/json'
