@@ -83,7 +83,7 @@ const Signup = () => {
             const createdAt = result.user?.metadata?.creationTime;
             const user  = {  email, createdAt: createdAt}
 
-            fetch('https://food-bevrage-server.vercel.app//user',{
+            fetch('https://food-bevrage-server.vercel.app/user',{
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
