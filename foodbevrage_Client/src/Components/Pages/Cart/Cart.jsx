@@ -32,7 +32,7 @@ const Cart = () => {
             if (result.isConfirmed) {
             //   
 
-            fetch(`https://food-bevrage-server.vercel.app//cart/${_id}`,{
+            fetch(`https://food-bevrage-server.vercel.app/cart/${_id}`,{
                 method: 'DELETE',
                 
             })
